@@ -9,7 +9,7 @@
 	a memory hog if the file size grows.
 
 - utils.py
-	contains the data formating function
+	contains the date formating function
 
 - data.py
 	contains the functions to add, display are return the dataframe
