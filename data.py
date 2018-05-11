@@ -7,12 +7,12 @@ class Data:
     		'ID', 
     		'description', 
     		'cvssV2_baseScore',
-    		'exploitabilityScore',
-    		'impactScore',
+    		'cvssV2_exploitabilityScore',
+    		'cvssV2_impactScore',
     		'publishedDate', 
     		'lastModifiedDate', 
-    		'ref_count',
-    		'exploit_db'
+    		'reference_cnt',
+    		'exploit_db_flag'
     	]
         self.df = pd.DataFrame(columns = self.cols)
 
