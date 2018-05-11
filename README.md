@@ -14,6 +14,9 @@
 - data.py
 	contains the functions to add, display are return the dataframe
 
+## requirements
+pip install ijson
+
 
 ## For processing with streams 
 ```
@@ -24,6 +27,4 @@
 ```
 	python simple-parser.py
 ```
-
-
 
