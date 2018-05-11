@@ -28,7 +28,6 @@ def processData():
     			lastModifiedDate = utilsInstance.parseDate(individualCveItem["lastModifiedDate"])
     			refCount = len(individualCveItem["cve"]["references"]["reference_data"])
     			exploitDBFlag = isExploitDBRefPresent(individualCveItem["cve"]["references"]["reference_data"])
-
     			row = [
     				cveId, 
     				description, 
@@ -41,10 +40,10 @@ def processData():
     				exploitDBFlag
     			]
     			data.addToDataFrame(row)
-                print "processed cve ID", cveId
+    			print "Processing CVE ID", cveId
 
     		except :
-    			# print "Key error, hence skipping row"
+    			# print "Key error, some properties are missing. Skipping row"
     			pass
     	
     	return data.getDataFrame()
