@@ -13,3 +13,17 @@
 
 - data.py
 	contains the functions to add, display are return the dataframe
+
+
+## For processing with streams 
+```
+	python streaming-parser.py
+```
+
+## For processing without streams
+```
+	python simple-parser.py
+```
+
+
+
